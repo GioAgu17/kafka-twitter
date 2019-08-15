@@ -64,7 +64,7 @@ public class TwitterProducer {
             }
             if(msg!=null)
                 logger.info(msg);
-                producer.send(new ProducerRecord<String, String>("twitter", null, msg), new Callback() {
+                producer.send(new ProducerRecord<String, String>("twitter_tweets", null, msg), new Callback() {
                     public void onCompletion(RecordMetadata recordMetadata, Exception e) {
                         if(e!=null){
                             logger.error("Something bad happened",e);

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/kafka-elasticsearch-consumer/kafka-elasticsearch-consumer.iml" filepath="$PROJECT_DIR$/kafka-elasticsearch-consumer/kafka-elasticsearch-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-streams-filter-tweets/kafka-streams-filter-tweets.iml" filepath="$PROJECT_DIR$/kafka-streams-filter-tweets/kafka-streams-filter-tweets.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka-twitter.iml" filepath="$PROJECT_DIR$/kafka-twitter.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka-twitter-producer/kafka-twitter-producer.iml" filepath="$PROJECT_DIR$/kafka-twitter-producer/kafka-twitter-producer.iml" />
     </modules>
